@@ -1,0 +1,65 @@
+fieldset.form_element_line {
+    display: block;
+    border-width: 0px;
+    margin: 2px 10px;
+    padding: 0px;
+}
+
+label {
+    display: block;
+    width: 40%;
+    line-height: 20px;
+    float: left;
+    clear: left;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+label.append {
+    float: none;
+    display: inline;
+    width: auto;
+}
+
+div.form_element {
+    display: block;
+    float: left;
+    width: 100%;
+    clear: none;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+div.description, div.description * {
+    font-size: 100%;
+}
+
+div.description {
+    padding: 3px;
+    margin: 0px;
+}
+
+input[type=text], select, option {
+    margin: 0px;
+    padding: 1px 2px;
+}
+
+input[type=text], select {
+    width: 99%;
+    border: 1px solid #999;
+}
+
+select, option {
+    padding: 0px;
+}
+
+select {
+    width: 99%;
+}
+
+input.checkbox {
+    width: auto;
+    margin: 3px;
+    vertical-align: bottom;
+    border: 0px none;
+}

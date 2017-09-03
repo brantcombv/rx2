@@ -1,0 +1,22 @@
+{
+    "name": "flying/rx",
+    "type": "library",
+    "description": "Rx library provides various useful components to use on top of Zend Framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Grimalovsky",
+            "email": "alexander.grimalovsky@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2",
+        "zendframework/zendframework1": "~1.12"
+    },
+    "include-path": ["library/"],
+    "autoload": {
+        "psr-0": {
+            "Rx_": "library/"
+        }
+    }
+}
