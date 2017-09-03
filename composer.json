@@ -1,5 +1,5 @@
 {
-    "name": "flying/rx",
+    "name": "brantcom/rx2",
     "type": "library",
     "description": "Rx library provides various useful components to use on top of Zend Framework",
     "license": "MIT",
